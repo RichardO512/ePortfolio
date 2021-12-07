@@ -1,80 +1,259 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richard Portfolio</title>
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="stylesheet" href="css/style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>My Portfolio</title>
 </head>
 <body>
+      <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
-<header class="mb-4 p-1 bg-transparent text-white rounded"></header>>
-    <ul>
-    <li><nav><a href="#aboutMe">About</a></nav></li>
-    <li><nav><a href="#projectSection">Project</a></nav></li>
-    <li><nav><a href="#contactMe">Contact</a></nav></li>
-    </ul>
-</header>
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Richard Ombrog</div>
+       <div class="text-three">Web Developer</div>
+       <div class="text-four">From Philppines</div>
+     </div>
+     <div class="button">
+       <button>Hire Me</button>
+     </div>
+   </div>
+ </section>
 
-<div class="center">
-   <h1>Hello, <span>I'm Richard</span></h1>
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="Image/richard.jpg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Developing a website Is My Passion</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, porro veritatis pariatur, nobis voluptatem ipsum repellat nemo quisquam error reprehenderit recusandae odio vel, suscipit. Voluptas mollitia accusantium quaerat aspernatur labore dolorum placeat ipsa sint nam perspiciatis eos consectetur veritatis debitis, quis aliquam unde sed maiores sit! Hic molestiae optio iste iure earum amet nostrum quaerat facere quae veniam maiores harum iusto aperiam vel inventore illo voluptatibus voluptates quo impedit voluptatum error vitae, omnis praesentium? Aperiam nulla non, nesciunt fuga rem perferendis alias et, temporibus, distinctio culpa unde a laborum libero ducimus. Facilis veniam sit praesentium, voluptatibus sint maxime iusto eaque.</p>
+      <div class="button">
+        <button><a href="">Download CV</a></button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
+       <!-- <div class="experience">
+         <div class="num">10</div>
+         <div class="exp">Years Of <br> Experience</div>
+       </div> -->
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">90%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">JavScript</div>
+         <div class="per">40%</div>
+       </div>
+       <div class="box">
+         <div class="topic">ReactJs</div>
+         <div class="per">20%</div>
+       </div>
+       <div class="box">
+         <div class="topic">SQL</div>
+         <div class="per">20%</div>
+       </div>
+       <!-- <div class="box">
+         <div class="topic">PHP</div>
+         <div class="per">20%</div>
+       </div> -->
+
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Projects Section Start -->
+
+<section id="projects" class="bg-custom-primary ">
+  <div class="container w-100 p-5">
+
+     <h1 class="title text-center fw-bold">My Projects</h1>
+      <div class="row g-3 text-dark">
+          <div class="col-md-6">
+              <div class="card">
+
+                  <img src="./Project/project1.png" alt="Project 1" class="img-fluid">
+                  <div class="card-body p-lg-5">
+                      <h3 class="text-center fw-bold" style="font-family: 'Poppins',sans-serif;">LRM Outsourcing Website</h3>
+                      <p class="lead card__description">While building this website, you could learn how Bootstrap, the basic and fundamentals of
+                          HTML, CSS, and a little bit of Javascript works. This could be an example template for those who wishes
+                          to had their own Website.
+                      </p>
+                      <p class="text-center fw-bold">Stack</p>
+                      <div class="d-flex justify-content-between align-items-center px-lg-5">
+                          <p class="">Bootstrap</p>
+                          <p class="">CSS</p>
+                          <p class="">Javascript</p>
+                      </div>
+
+                      <div class="px-lg-5">
+                          <a href="" class="btn btn-custom btn-rounded float-start">Code</a>
+                          <a href="" class="btn btn-custom btn-rounded float-end">Source</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="card">
+                  <img src="" alt="Project 2" class="img-fluid">
+                  <div class="card-body p-lg-5">
+                     <h3 class="text-center fw-bold" style="font-family: 'Poppins',sans-serif;">Magazine Website</h3>
+                     <p class="lead card__description"> This is our first project in Kodego Bootcamp. We apply the fundamentals of HTML and CSS in building
+                         this website. You can learn how to layout your project efficiently, and at the same time work as a team if you are
+                         collaborating with other developers
+                     </p>
+
+                     <p class="text-center fw-bold">Stack</p>
+                     <div class="d-flex justify-content-between align-items-center px-lg-5">
+                         <p class="">HTML</p>
+                         <p class="">CSS</p>
+                     </div>
+
+                     <div class="px-lg-5">
+                         <a href="" class="btn btn-custom btn-rounded float-start">Code</a>
+                         <a href="" class="btn btn-custom btn-rounded float-end">Source</a>
+                     </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="card">
+                  <img src="" alt="Project 3" class="img-fluid">
+                  <div class="card-body p-lg-5">
+                     <h3 class="text-center fw-bold" style="font-family: 'Poppins',sans-serif;"></h3>
+                     <p class="lead card__description">
+                     </p>
+
+                     <p class="text-center fw-bold">Stack</p>
+                     <div class="d-flex justify-content-between align-items-center px-lg-5">
+                         <p class="">Bootstrap</p>
+                         <p class="">CSS</p>
+                         <p class="">Javascript</p>
+                     </div>
+
+                     <div class="px-lg-5">
+                         <a href="" class="btn btn-custom btn-rounded float-start">Code</a>
+                         <a href="" class="btn btn-custom btn-rounded float-end">Source</a>
+                     </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="card">
+                  <img src="images/proj4.png" alt="Project 4" class="img-fluid">
+                  <div class="card-body p-lg-5">
+                     <h3 class="text-center fw-bold" style="font-family: 'Poppins',sans-serif;"></h3>
+                     <p class="lead">
+                     </p>
+
+                     <p class="text-center fw-bold">Stack</p>
+                     <div class="d-flex justify-content-between align-items-center px-lg-5">
+                         <p class="">Bootstrap</p>
+                         <p class="">CSS</p>
+                     </div>
+
+                     <div class="px-lg-5">
+                         <a href="" class="btn btn-custom btn-rounded float-start">Code</a>
+                         <a href="" class="btn btn-custom btn-rounded float-end">Source</a>
+                     </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-lg-12 d-flex justify-content-center align-items-center">
+              <a href="#" class="btn btn-custom">See More<i class="fas fa-chevron-down mx-1"></i></a>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Project?</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+      <div class="button">
+        <button>Let's Chat</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">Richard Ombrog</a> | &#169; 2021 All Rights Reserved</span>
+  </div>
+</footer>
+<!-- 
+  <h1>Hello, <span>I'm Richard</span></h1>
     <p><span>An aspiring Front-End Developer with a lot of potential</span>,seeking to elevate my skillset.</p>
     <p>a strong sense of responsibility, finishing the job ahead of time.</p>
     <p>to learn and grasp different opinions and criticism with co-workers.
        Has a prowess skills in communication and social.</p>
-        <a href=""><button>Hire Me</button></a>
-</div>
+ -->
 
-<div class="middle-container">
-     <div class="profile">
-      <img src="Image/richard.jpg" alt="me">
-      <h2>Hello.</h2>
-      <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-</div>
-    <hr>
-    <div id="projectSection" class="project">
-        <h2>Projects</h2>
-        <div class="project-row">
-            <iframe src="https://richardombrog.github.io/onlinemagazine.github.io" ></iframe>
-            <iframe src="https://richardombrog.github.io/eCalculator" frameborder="10px"></iframe>
-            <iframe src="https://richardombrog.github.io/Groupproj" frameborder="0"></iframe>
-            
-        </div>
-    </div>
-    <hr>
-<div class="skills">
-      <h2>My Skills.</h2>
-      <p>I know Web Development Languages Such as</p>
-    <div class="skill-row">
-        <img class="" src="Image/html-5.png" alt="html">
-        <img src="Image/css-3.png" alt="css3">
-        <img src="Image/bootstrap.png" alt="bootstrap">
-        <img src="Image/git.png" alt="Git"><br>
-        <img src="Image/sass.png" alt="sass">
-        <img src="Image/javascript.png" alt="js">
-        <img src="Image/react.png" alt="react">
-        <h3>Lorem & Ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-    </div>
-        <hr>
-    <div id="contactMe" class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <a class="btn" href="mailto:ombrog512@email.com">CONTACT ME</a>
-    </div>
-</div>
-  
-<footer class="mt-4 p-5 bg-transparent text-white rounded">
-  <!-- <div> -->
-    <a class="footer-link" href="https://www.linkedin.com/"><img src="Image/linkedin.svg" alt=""></a>
-    <a class="footer-link" href="https://twitter.com/"><img src="Image/twitter.svg" alt=""></a>
-    <a class="footer-link" href="https://www.facebook.com/"><img src="Image/facebook.svg" alt=""></a>
-    <p class="copy">Copyright &copy; 2021 by Richard Ombrog.</p>
-  <!-- </div> -->
-</footer>
+  <script src="script/script.js"></script>
 </body>
 </html>
