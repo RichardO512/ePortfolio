@@ -1,4 +1,6 @@
 // Sticky Navigation Menu JS Code
+// this code is for the nav and and arrow up that
+// when scrolling up or down it will show and stick
 let nav = document.querySelector("nav");
 let scrollBtn = document.querySelector(".scroll-button a");
 console.log(scrollBtn);
@@ -15,6 +17,7 @@ window.onscroll = function() {
 }
 
 // Side NavIgation Menu JS Code
+// code for navbar side or on the left side
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
