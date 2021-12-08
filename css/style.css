@@ -25,6 +25,11 @@
     background: #4070f4;
 }
 /* navbar styling */
+
+.navbar > .logo img{
+  width: clamp(100px, 10%, 200px);
+  
+}
 nav{
   position: fixed;
   width: 100%;
